@@ -92,16 +92,18 @@ a {
 }
 
 .bgimg{
-    background-image: url('./img/undraw.png');
+    background-image: url('./img/index.svg');
     background-repeat:no-repeat;
     background-size: contain;
     background-position: center;
-   
+
 
 }
 
 .fontsSize{
     font-size: 150px;
+    color: #7abcff;
+    text-shadow: 4px 4px 20px #000000;
 
 }
 
