@@ -11,8 +11,8 @@ h1{
     /*cursor:pointer;*/
     color:#FFF;
     font-size:2em;
-    border-radius:4px;
-    border:1px solid #bbb;
+    border-radius:15px;
+    /*border:1px solid #bbb;*/
     transition: all 0.3s linear;
 }
 
@@ -69,7 +69,8 @@ a {
     color: black;
     height: 50vh; 
     display: flex;
-    align-items: center;
+    /*text-align: center;*/
+    /*align-items: center;*/
     justify-content: center;
     padding: 30px;
     
@@ -77,7 +78,9 @@ a {
 
 .cover{
     width: 30rem;
+
 }
+
 
 .about-cover{
     width:30rem;
@@ -87,6 +90,21 @@ a {
 .contact-cover{
     width:30rem;
 }
+
+.bgimg{
+    background-image: url('./img/undraw.png');
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: center;
+   
+
+}
+
+.fontsSize{
+    font-size: 150px;
+
+}
+
 
 /***********************************************************************
  *  Grid Panel
@@ -99,7 +117,7 @@ a {
 
 .box {
     background-color: #444;
-    padding: 130px;
+    padding: 100px;
     margin: 20px;
 }
 
