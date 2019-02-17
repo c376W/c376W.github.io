@@ -85,7 +85,7 @@ a {
 .container {
     /*show heigh: auto*/
     color: black;
-    height: 50vh; 
+    /*height: 50vh; */
     display: flex;
     /*text-align: center;*/
     /*align-items: center;*/
@@ -107,9 +107,6 @@ a {
 
 }
 
-.contact-cover{
-    width:30rem;
-}
 
 .bgimg{
     background-image: url('./img/index.svg');
@@ -141,6 +138,11 @@ padding: 1px 0 0 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-gap: 20px;
+}
+.grid-center{
+    display: grid;
+    grid-template-columns: repeat;
+    grid-area: center;
 }
 
 .box {
