@@ -11,7 +11,7 @@ h1{
     /*cursor:pointer;*/
     color:#FFF;
     font-size:2em;
-    border-radius:15px;
+    border-radius:5px;
     /*border:1px solid #bbb;*/
     transition: all 0.3s linear;
 }
@@ -94,6 +94,11 @@ a {
     
 }
 
+/*This is on about page.*/
+.height{
+  height: 50vh;   
+}
+
 .cover{
     width: 30rem;
 }
@@ -103,7 +108,8 @@ a {
 
 
 .about-cover{
-    width:30rem;
+    width:40rem;
+    height:20rem;
 
 }
 
